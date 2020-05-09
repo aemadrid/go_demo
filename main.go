@@ -24,5 +24,5 @@ func main() {
 
 func JsonHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Content-Type", "application/json")
-	io.WriteString(w, `{"version":1,"status":"ok","message":"Hello World","language":"go"}`)
+	io.WriteString(w, `{"version":2,"status":"ok","message":"Hello World","language":"go"}`)
 }
